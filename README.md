@@ -1,2 +1,1 @@
-# stock-ticker-predictor
-Predict next-day rise-or-fall of any given stock
+Red sky at night, sailors' delight. Red sky in the morn', sailors' forlorn
