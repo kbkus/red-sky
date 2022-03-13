@@ -1,4 +1,4 @@
-ls #!/usr/bin/env bash
+#!/usr/bin/env bash
 # Run this script to install the virtual environment for this project
 
 set -e
@@ -7,7 +7,7 @@ set -e
 VIRTUAL_ENVIRONMENT='venv-redsky'
 
 # python3 -m venv ${VIRTUAL_ENVIRONMENT}
-/usr/bin/python3 -m venv ${VIRTUAL_ENVIRONMENT}
+python -m venv ${VIRTUAL_ENVIRONMENT}
 
 # Activate
 . ${VIRTUAL_ENVIRONMENT}/bin/activate
